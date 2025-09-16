@@ -1,9 +1,8 @@
 package com.springprojects.reactivetransaction.controller;
 
-import com.springprojects.reactivetransaction.controller.model.Account;
-import com.springprojects.reactivetransaction.controller.model.RandomUser;
-import com.springprojects.reactivetransaction.controller.model.ApiResponse;
-import com.springprojects.reactivetransaction.controller.model.ApiListResponse;
+import com.springprojects.reactivetransaction.model.Account;
+import com.springprojects.reactivetransaction.model.RandomUser;
+import com.springprojects.reactivetransaction.model.ApiResponse;
 import com.springprojects.reactivetransaction.service.AccountService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -11,7 +10,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-import java.time.Duration;
 
 import java.util.List;
 

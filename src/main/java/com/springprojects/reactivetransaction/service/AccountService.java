@@ -1,8 +1,7 @@
 package com.springprojects.reactivetransaction.service;
 
-import com.springprojects.reactivetransaction.controller.model.Account;
+import com.springprojects.reactivetransaction.model.Account;
 import com.springprojects.reactivetransaction.repository.AccountRepository;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import reactor.core.publisher.Flux;

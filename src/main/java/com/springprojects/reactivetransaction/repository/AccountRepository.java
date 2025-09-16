@@ -1,6 +1,6 @@
 package com.springprojects.reactivetransaction.repository;
 
-import com.springprojects.reactivetransaction.controller.model.Account;
+import com.springprojects.reactivetransaction.model.Account;
 import org.springframework.data.r2dbc.repository.R2dbcRepository;
 import reactor.core.publisher.Mono;
 

@@ -1,4 +1,4 @@
-package com.springprojects.reactivetransaction.controller.model;
+package com.springprojects.reactivetransaction.model;
 
 import lombok.Data;
 

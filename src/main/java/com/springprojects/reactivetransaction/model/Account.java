@@ -1,4 +1,4 @@
-package com.springprojects.reactivetransaction.controller.model;
+package com.springprojects.reactivetransaction.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
